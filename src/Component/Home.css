@@ -1,0 +1,90 @@
+.home-section {
+    padding: 20px;
+     /* Slightly lighter for better contrast */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif;
+    border-radius: 10px; /* Adding a slight border-radius for better appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adding a shadow for depth */
+    margin-top: 3rem;
+    margin-left: 8rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .greeting h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .greeting p {
+    font-size: 1.2em;
+    color: #aaaaaa; /* Lighter color for the date */
+  }
+  
+  .button-section {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; /* Align buttons to the end */
+    margin-left: 1100px;
+    
+  }
+  
+  .button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin-left: 23px;
+  }
+  
+  .button:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .button-icon {
+    margin-right: 8px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    border-radius: 50%; /* Make it a circle */
+    width: 40px;
+    height: 40px;
+    justify-content: center; /* Center the icon */
+  }
+  
+  .search-button .button-icon {
+    margin-right: 0; /* Remove margin for the search icon */
+  }
+  
+  .chart {
+    margin-top: 20px;
+    background-color: #2a2a2a; /* Background for the chart section */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .chart h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .chart img {
+    max-width: 100%;
+    border-radius: 8px; /* Match the rounded corners */
+  }
+  
